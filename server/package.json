@@ -1,0 +1,32 @@
+{
+  "name": "whatsapp-sender-server",
+  "version": "1.0.0",
+  "description": "Backend for WhatsApp message sender project",
+  "main": "app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx app.ts",
+    "dev": "nodemon app.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "googleapis": "^144.0.0",
+    "twilio": "^5.3.4",
+    "whatsapp-sender-server": "file:"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.2",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

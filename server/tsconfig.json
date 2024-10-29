@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES2022", // or "ES2020"
+      "module": "ES2022", // Set to "ESNext"
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "noEmit": true // Prevent emitting JS files
+    },
+    "ts-node": {
+        "esm": true,
+        "experimentalSpecifierResolution": "node"
+    },
+    "include": ["**/*.ts"], // Include TypeScript files
+    "exclude": ["node_modules"] // Exclude node_modules
+  }
+  

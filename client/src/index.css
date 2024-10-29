@@ -1,0 +1,62 @@
+/* client/src/index.css */
+
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text */
+    font-family: 'Roboto', sans-serif; /* Material UI font */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #444; /* Darker border */
+}
+
+th {
+    background-color: #333; /* Dark header */
+}
+
+tr:hover {
+    background-color: #444; /* Darker row on hover */
+}
+
+button {
+    background-color: #6200ee; /* Material UI purple */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3700b3; /* Darker purple on hover */
+}
+
+.success {
+    background-color: #4caf50; /* Green background for success */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.error {
+    background-color: #f44336; /* Red background for error */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
